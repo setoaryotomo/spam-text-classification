@@ -6,7 +6,7 @@ from PIL import Image
 import streamlit as st
 import pickle
 
-# Tambahkan CSS untuk menengahkan judul
+
 st.markdown(
     """
     <style>
@@ -25,9 +25,8 @@ max_words = 1000
 max_len = 150
 model = load_model('model.h5')
 
-# Membuat container untuk memposisikan gambar di tengah
 col1, col2, col3 = st.columns(3)
-with col2:  # Menempatkan gambar di kolom tengah
+with col2:  
     image = Image.open('./Meta/spam.png').resize((200, 200))
     st.image(image, use_column_width=True)
 
