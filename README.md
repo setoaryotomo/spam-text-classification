@@ -25,11 +25,11 @@ Seto Aryotomo (A11.2021.13747/A11.4706)
 
 ## Dataset
 - **text**: teks yang akan diklasifikasikan.
-- **label**: label untuk teks tersebut (`spam` atau `not spam`).
+- **label**: label untuk teks tersebut (`spam` atau `ham`).
 
 Contoh:
 ```csv
 text,label
 "Congratulations! You won a prize!",spam
-"Meeting rescheduled to 3 PM",not spam
+"Meeting rescheduled to 3 PM",ham
 ```
