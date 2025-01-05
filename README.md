@@ -1,5 +1,6 @@
 # Spam Text Classification RNN
 Seto Aryotomo (A11.2021.13747/A11.4706)
+Link Video Presentasi : https://youtu.be/xr312ZJcK7U
 
 ## Prasyarat
 - **Python 3.8 atau lebih baru**
